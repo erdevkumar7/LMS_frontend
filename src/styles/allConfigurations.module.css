@@ -1,0 +1,149 @@
+/* Site Configuration */
+
+.imageComponent {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.siteCameraIcon {
+  right: 17px !important;
+  color: white !important;
+  position: relative !important;
+  background: #1a73e8 !important;
+  padding: 5px !important;
+  border-radius: 50% !important;
+}
+
+.siteAttachmentBox {
+  border: 1px solid grey !important;
+  text-align: -webkit-center !important;
+}
+
+.subbox {
+  border: 1px dashed grey !important;
+  margin: 5px !important;
+}
+
+.siteAttachments {
+  padding: 10px 33px !important;
+  width: 190px !important;
+  margin: 10px !important;
+  background: #f1f1f1 !important;
+  border-radius: 50px !important;
+  display: flex !important;
+  justify-content: space-evenly !important;
+}
+
+.inputLabels {
+  font-size: 21px !important;
+  font-weight: 700 !important;
+  color: black !important;
+}
+
+.previewImage {
+  padding: 10px !important;
+  height: 64px !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.siteCameraIconFavicon {
+  right: 19px !important;
+  color: white !important;
+  height: 18px;
+  position: relative !important;
+  background: #1a73e8 !important;
+  padding: 3px !important;
+  border-radius: 50% !important;
+  top: 41px;
+}
+
+.cameraAltIconFavicon {
+  right: 16px !important;
+  color: white !important;
+  position: relative !important;
+  background-color: #e8661b !important;
+  padding: 1px !important;
+  border-radius: 50% !important;
+  top: 44px;
+  font-size: 15px !important;
+}
+
+.cameraAltIconLogo {
+  right: 25px !important;
+  color: white !important;
+  position: relative !important;
+  background-color: #e8661b !important;
+  padding: 2px !important;
+  border-radius: 50% !important;
+  top: 35px;
+  height: 23px;
+}
+
+.cameraIconMain {
+  display: flex;
+  justify-content: center;
+}
+
+.siteLoadingButton {
+  width: 103px;
+}
+
+/* E-mail configuration */
+.listEmailPageBox {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tableContainerMainClass {
+  padding: "20px";
+}
+
+.tableHeadingFontWeight {
+  font-weight: 600 !important;
+}
+
+.allEmailCountStyle {
+  font-weight: 600;
+  color: #e8661b !important;
+}
+
+.bothButtonSpace {
+  margin-right: 15px !important;
+}
+
+#tabHeadingFontWeight {
+  font-weight: 600 !important;
+}
+
+.emailBodyTextPreview {
+  height: 440px;
+  width: 100%;
+  border: 1px solid #ccc;
+  overflow: auto;
+}
+.secretbox {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.inputLabels1 {
+  font-size: 21px !important;
+  font-weight: 700 !important;
+  color: black !important;
+  margin-top: 8px !important;
+}
+.switchCss {
+  margin-right: 0px !important;
+}
+
+.tooltipcss {
+  color: #e8661b !important;
+  text-decoration: underline !important;
+  background: white !important;
+  font-size: 13px !important;
+  padding: 2px !important;
+  border-radius: 2px !important;
+}

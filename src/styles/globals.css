@@ -1,0 +1,266 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro !important";
+}
+
+html,
+body {
+  /* max-width: 100vw;
+  overflow-x: hidden; */
+  padding: 0 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  /* background: #685f600d; */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  background-color: #e8661b !important;
+}
+
+.css-jh47zj-MuiButtonBase-root-MuiButton-root {
+  background-color: #e8661b !important;
+}
+
+.css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+  background-color: #e8661b !important;
+}
+.pagination .css-1omp2b7.Mui-selected {
+  background-color: #e8661b !important;
+}
+.pagination .css-1omp2b7.Mui-selected:hover {
+  background-color: rgb(255 110 8);
+}
+.css-1aquho2-MuiTabs-indicator {
+  background-color: #e8661b !important;
+}
+
+.css-ttwr4n {
+  background-color: #e8661b !important;
+}
+
+.css-1nvn3ta-JoyTextarea-root.Joy-focused {
+  --Textarea-focusedHighlight: #e8661b !important;
+}
+
+.css-9kk2us.Joy-focused {
+  --Textarea-focusedHighlight: #e8661b !important;
+}
+
+/* .css-1e6y48t-MuiButtonBase-root-MuiButton-root:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: white !important;
+} */
+
+.linercss .css-5xe99f-MuiLinearProgress-bar1 {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  -webkit-transition: -webkit-transform 0.4s linear;
+  transition: transform 0.4s linear;
+  transform-origin: left;
+  background-color: #e8661b !important;
+}
+.progressCss .css-r40f8v-MuiTypography-root {
+  color: #e8661b !important;
+}
+.css-eh8qic > .ps-menu-button:hover {
+  border-top-right-radius: 23px !important;
+  border-bottom-right-radius: 23px !important;
+  max-width: 200px !important;
+  color: white !important;
+  /* font-size: 17px !important; */
+  background-color: #e8661b !important;
+}
+.css-16jkw2k > .ps-menu-button:hover {
+  border-top-right-radius: 23px !important;
+  border-bottom-right-radius: 23px !important;
+  max-width: 200px !important;
+  color: #000000 !important;
+  background-color: #ef590640 !important;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root.Mui-selected:hover {
+  background-color: #e8661b !important;
+  color: white !important;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root.Mui-selected {
+  background-color: #e8661b !important;
+  color: white !important;
+}
+.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #e8661b !important;
+  /* border: 1px solid rgba(0, 0, 0, 0.87) !important; */
+}
+/* .css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root:hover
+  .MuiOutlinedInput-notchedOutline {
+  border-color: #e8661b !important;
+} */
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: #e8661b !important;
+}
+
+.css-yjsfm1 {
+  color: #e8661b !important;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  color: #e8661b !important;
+}
+.css-1km1ehz.Mui-selected:hover {
+  background-color: #e8661b !important;
+  color: white !important;
+}
+.css-1km1ehz.Mui-selected {
+  background-color: #e8661b !important;
+  color: white !important;
+}
+.progressCss .css-u30lmt {
+  margin: 0px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  color: #e8661b !important;
+}
+.css-1ujsas3 {
+  color: #e8661b !important;
+}
+.linercss .css-t752vm {
+  background-color: #e8661b !important;
+}
+
+.css-1ujsas3:hover {
+  text-decoration: none !important;
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.css-1rl742m > .ps-menu-button:hover {
+  /* background-color: #e8661b !important;
+  color: white !important; */
+  color: #000000 !important;
+  background-color: #ef590640 !important;
+  border-top-right-radius: 23px !important;
+  border-bottom-right-radius: 23px !important;
+}
+
+/* submenu inner */
+.css-1a3zl6u > .ps-menu-button:hover {
+  /* background-color: #e8661b !important; */
+  color: white !important;
+  /* color: #000000!important; */
+  font-size: 17px !important;
+  background-color: #ef590640 !important;
+  border-top-right-radius: 23px !important;
+  border-bottom-right-radius: 23px !important;
+}
+
+/* submenu header css */
+.css-16jesut > .ps-menu-button:hover {
+  /* background-color: #e8661b !important;
+  color: white !important; */
+  color: #000000 !important;
+  background-color: #ef590640 !important;
+  border-top-right-radius: 23px !important;
+  border-bottom-right-radius: 23px !important;
+}
+
+/* header */
+div#panel1a-header > div {
+  display: block !important;
+}
+
+.css-1ald77x.Mui-focused {
+  color: #e8661b !important;
+}
+
+/* navbar */
+.css-1670zxu {
+  background-color: #ffffff !important;
+}
+/* auth pages label color */
+.css-1ald77x.Mui-focused {
+  color: #e8661b !important;
+  /* border: 1px solid #e8661b !important; */
+}
+
+/* //pagination showing css */
+
+.paginationShowinig {
+  position: relative !important;
+  top: 9px !important;
+}
+
+/* aboutcss */
+.css-10twnsm:hover {
+  background-color: transparent !important;
+}
+.css-mq3aek:hover {
+  background-color: transparent !important;
+}
+.css-bbreus-MuiButtonBase-root-MuiIconButton-root:hover {
+  background-color: transparent !important;
+}
+.css-8ucetn-MuiButtonBase-root-MuiIconButton-root:hover {
+  background-color: transparent !important;
+}
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.webview_viewmorebtn__Gf9_u.css-1ujsas3
+  :hover {
+  background-color: transparent !important;
+}
+.carousel .control-dots {
+  margin: 1px 0 !important;
+}
+.carousel .control-dots .dot {
+  box-shadow: none !important;
+  background: #000000 !important;
+  border-radius: 8px !important;
+  width: 22px !important;
+  opacity: 1 !important;
+  height: 2px !important;
+  margin-left: 20px !important;
+}
+
+.carousel .control-dots .dot.selected,
+.carousel .control-dots .dot:hover {
+  opacity: 1 !important;
+  background: #e8661b !important;
+  border-radius: 30px !important;
+}
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase .MuiSwitch-input {
+  left: 0% !important;
+  width: 1% !important;
+}
+.btnglobal {
+  background: #e8661b !important;
+  color: white !important;
+  border: none !important;
+}
+
+.btnglobal1 {
+  /* padding: 5px 9px !important; */
+  min-width: 30px !important;
+  /* margin: 3px !important; */
+}

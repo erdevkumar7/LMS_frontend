@@ -1,0 +1,249 @@
+.subscription {
+  text-align: center !important;
+}
+.mainSubsDiv {
+  background-color: #e5e5e5 !important;
+}
+.maindisplay {
+  display: flex !important;
+}
+.fontCSS {
+  padding: 4px !important;
+  color: #646363 !important;
+  font-weight: 600 !important;
+}
+
+.fontCSSsubsc {
+  padding: 4px !important;
+  color: #121111 !important;
+  font-weight: 600 !important;
+}
+
+.useNameFront {
+  color: #4e4a4a !important;
+  font-weight: bold !important;
+}
+.btncss {
+  text-align: start;
+}
+.headingcss {
+  font-weight: bold !important;
+}
+
+.fontCSS1 {
+  font-weight: 400 !important;
+  line-height: 1.6 !important;
+  text-align: justify;
+  color: #333 !important;
+  font-size: 15px !important;
+  font-family: Inter, sans-serif !important;
+}
+.useNameFront1 {
+  color: #242222 !important;
+  font-weight: 700 !important;
+  margin-top: 30px !important;
+  margin-bottom: 15px !important;
+}
+.shadoww {
+  box-shadow: none !important;
+}
+.moduletextcss {
+  font-size: 18px !important;
+  color: #232323 !important;
+  font-weight: 500 !important;
+  text-transform: uppercase !important;
+}
+.iconcss {
+  color: #e8661b !important;
+  position: relative !important;
+  top: 5px !important;
+}
+.btncss {
+  margin-left: 23px !important;
+  margin-top: 19px !important;
+  background: #e8661b !important;
+}
+.useNameFront2 {
+  color: #242222 !important;
+  font-weight: 700 !important;
+  /* margin-top: 30px !important;
+  margin-bottom: 15px !important;
+  margin-left: 10px !important; */
+  padding: 10px !important;
+  font-size: 25px !important;
+}
+.btncss1 {
+  text-align: start !important;
+}
+.subsbtn {
+  width: 18% !important;
+}
+
+.useSubsMessage {
+  color: #e8661b !important;
+  font-weight: bold !important;
+  text-decoration: underline !important;
+  font-size: 18px !important;
+}
+.maindisplay1 {
+  display: flex !important;
+  float: right !important;
+  padding: 10px !important;
+}
+.useSubsCancell {
+  color: #4e4a4a !important;
+  font-size: 18px !important;
+}
+
+@media (min-width: 1400px) and (max-width: 1700px) {
+  .mediaque {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+  }
+}
+@media (min-width: 1700px) and (max-width: 2000px) {
+  .mediaque {
+    margin-left: 15% !important;
+    margin-right: 15% !important;
+  }
+}
+@media (min-width: 2000px) and (max-width: 2300px) {
+  .mediaque {
+    margin-left: 20% !important;
+    margin-right: 20% !important;
+  }
+}
+@media (min-width: 2300px) {
+  .mediaque {
+    margin-left: 25% !important;
+    margin-right: 25% !important;
+  }
+}
+
+.videodisplay div {
+  display: contents !important;
+}
+
+/* admin page css */
+.filterBox {
+  font-weight: bold !important;
+}
+.filterForm {
+  margin-top: 8px !important;
+}
+.mainFilterBox {
+  float: right !important;
+  display: flex !important;
+  align-items: center !important;
+}
+.popStateFilterButton {
+  display: inline-flex !important;
+  color: #e8661b !important;
+}
+.editDeleteButton {
+  padding: 5px 9px !important;
+  min-width: 30px !important;
+  margin: 3px !important;
+}
+
+.MuiPaper-root
+  .MuiPaper-elevation
+  .MuiPaper-rounded
+  .MuiPaper-elevation8
+  .MuiPopover-paper
+  .css-3bmhjh-MuiPaper-root-MuiPopover-paper {
+  width: 70% !important;
+}
+
+.statusInFilter {
+  font-weight: bold !important;
+}
+.boxInFilter {
+  float: right !important;
+}
+.applyButtonInFiltter {
+  margin-left: 10px !important;
+}
+.papperForTable {
+  width: 100% !important;
+}
+.tableHeadingForId {
+  font-weight: bold !important;
+}
+.tableContainer {
+  margin-top: 24px !important;
+}
+.tableCellMargin {
+  margin: 5px !important;
+}
+.tableLastCell {
+  text-align: center !important;
+}
+.activeClassColor {
+  color: green !important;
+}
+.inactiveClassColor {
+  color: red !important;
+}
+.cancelClassColor {
+  color: orange !important;
+}
+.expiredClassColor {
+  color: rgb(116, 116, 116) !important;
+}
+.stackStyle {
+  margin-bottom: 10px !important;
+  margin-top: 10px !important;
+}
+.textareaManuallyStyle {
+  height: 64px !important;
+  width: 100% !important;
+  border: 1px solid #d3d3d3d4 !important;
+  padding: 16.5px 14px !important;
+  border-radius: 4px !important;
+  font: inherit !important;
+  letter-spacing: inherit !important;
+}
+.InputLabelFont {
+  font-weight: 700 !important;
+}
+.sessionNameGride {
+  display: flex !important;
+  margin-bottom: 16px !important;
+}
+.cancelButton {
+  margin: 10px !important;
+  background-color: #1976d2 !important;
+  color: white !important;
+}
+.updateLoadingButton {
+  width: 105px !important;
+  padding: 9px 22px !important;
+}
+.cardBorder {
+  border-top: 1px solid #e3e3e3 !important;
+  border-left: 1px solid #e3e3e3 !important;
+  border-right: 1px solid #e3e3e3 !important;
+}
+.imageCenter {
+  text-align: center;
+  margin-top: 5%;
+}
+.inputFieldWidth {
+  width: 100% !important;
+}
+.subsplanNameGride {
+  display: flex !important;
+  margin-bottom: 5px !important;
+}
+.corseDetaildiv {
+  min-height: 600px !important;
+}
+
+.paynowbbttnn {
+  background-color: #e8661b !important;
+}
+
+.paynowbbttnn:hover {
+  background-color: #e8661b !important;
+}

@@ -1,0 +1,160 @@
+.InputLabelFont {
+  font-weight: 700 !important;
+}
+.upperFilterBox {
+  float: right !important;
+  display: flex !important;
+  align-items: center !important;
+}
+.filterAltOutlinedIcon {
+  display: inline-flex !important;
+  color: #e8661b !important;
+}
+.filterTypography {
+  font-weight: bold !important;
+}
+.typeFreePaid {
+  font-weight: bold !important;
+}
+.statusBold {
+  font-weight: bold !important;
+}
+.cancelButton {
+  margin: 10px !important;
+  background-color: #1976d2 !important;
+  color: white !important;
+}
+.subbox {
+  border: 1px dashed grey !important;
+  margin: 20px;
+  /* height: 150px; */
+}
+
+.quillDescription {
+  /* width: 555px !important; */
+}
+.quillDescription > div > div {
+  height: 80px !important;
+}
+.quillDescription2 {
+  /* width: 564px !important; */
+}
+.quillDescription2 > div > div {
+  height: 80px !important;
+}
+.inputFieldWidth {
+  width: 100% !important;
+}
+.ql-editor.ql-blank {
+  height: 70px !important;
+}
+.sessionAttachments {
+  padding: 10px 33px !important;
+  width: fit-content !important;
+  margin: 10px !important;
+  background: #f1f1f1 !important;
+  border-radius: 50px !important;
+}
+.updateSessionAttachments {
+  padding: 10px 33px !important;
+  width: fit-content !important;
+  background: #f1f1f1 !important;
+  margin: 8px !important;
+  /* border: 1px solid; */
+  border-radius: 20px !important;
+  /* float: left; */
+}
+.stackStyle {
+  margin-bottom: 10px !important;
+  margin-top: 10px !important;
+}
+.sessionNameGride {
+  display: flex;
+  margin-bottom: 16px !important;
+}
+.sessionAttachmentBox {
+  border: 1px solid grey !important;
+  text-align: -webkit-center !important;
+  /* height: 200px; */
+}
+.updateLoadingButton {
+  width: 178px !important;
+}
+
+/* CSS for Listing Page  */
+.filterBox {
+  font-weight: bold !important;
+}
+.filterForm {
+  margin-top: 8px !important;
+}
+.mainFilterBox {
+  float: right !important;
+  display: flex !important;
+  align-items: center !important;
+}
+.popStateFilterButton {
+  display: inline-flex !important;
+  color: #1976d2 !important;
+}
+.editDeleteButton {
+  padding: 5px 9px !important;
+  min-width: 30px !important;
+  margin: 3px !important;
+}
+
+.MuiPaper-root
+  .MuiPaper-elevation
+  .MuiPaper-rounded
+  .MuiPaper-elevation8
+  .MuiPopover-paper
+  .css-3bmhjh-MuiPaper-root-MuiPopover-paper {
+  width: 70% !important;
+}
+.courseInFilter {
+  font-weight: bold !important;
+}
+.moduleInFilter {
+  font-weight: bold !important;
+}
+.statusInFilter {
+  font-weight: bold !important;
+}
+.boxInFilter {
+  float: right !important;
+}
+.applyButtonInFiltter {
+  margin-left: 10px !important;
+}
+.papperForTable {
+  width: 100% !important;
+}
+.tableContainer {
+  margin-top: 24px !important;
+}
+.tableCellMargin {
+  margin: 5px !important;
+}
+.tableLastCell {
+  text-align: center !important;
+}
+.activeClassColor {
+  color: green !important;
+}
+.inactiveClassColor {
+  color: #d32f2f !important;
+}
+.draftClassColor {
+  color: orange !important;
+}
+/*---------   update module css  */
+.courseNameGride {
+  display: flex !important;
+  margin-bottom: 16px !important;
+}
+.updateLoadingButton {
+  width: 178px !important;
+}
+.tableHeadingForId {
+  font-weight: bold !important;
+}

@@ -1,0 +1,72 @@
+.quickstatText {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+}
+
+.quickstatTextBox {
+  display: flex !important;
+  justify-content: space-around !important;
+}
+
+.quickstatText1 {
+  /* border-right: 3px solid orange !important; */
+  border-left: 3px solid orange !important;
+}
+
+.quickstatText2 {
+  /* border-right: 3px solid #3498db !important; */
+  border-left: 3px solid #3498db !important;
+}
+
+.quickstatText3 {
+  /* border-right: 3px solid #07bc0c !important; */
+  border-left: 3px solid #07bc0c !important;
+}
+
+.quickstatText4 {
+  /* border-right: 3px solid #5856d6 !important; */
+  border-left: 3px solid #5856d6 !important;
+}
+/* ////////////user//////////// */
+
+.quickstatText1user {
+  /* border-right: 3px solid orange !important; */
+  border-left: 3px solid #edbd10 !important;
+}
+
+.quickstatText2user {
+  /* border-right: 3px solid #3498db !important; */
+  border-left: 3px solid #d92412 !important;
+}
+
+.quickstatText3user {
+  /* border-right: 3px solid #07bc0c !important; */
+  border-left: 3px solid #00a4e3 !important;
+}
+.bdradius {
+  border-radius: 40px !important;
+}
+
+.tableHeight{
+  height:322.5px  !important;
+}
+
+/* //////////////user end/////////////// */
+
+.quickstatBoxes {
+  display: flex !important;
+  justify-content: space-around !important;
+}
+
+.tableColumnFont {
+  font-weight: 600 !important;
+}
+
+.seeMore {
+  float: right !important;
+  color: #e8661b !important;
+}
+
+.tableMinWidth {
+  min-width: 650 !important;
+}

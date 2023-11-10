@@ -1,0 +1,236 @@
+.InputLabelFont {
+  font-weight: 700 !important;
+}
+.upperFilterBox {
+  float: right !important;
+  display: flex !important;
+  align-items: center !important;
+}
+.filterAltOutlinedIcon {
+  display: inline-flex !important;
+  color: #e8661b !important;
+}
+.filterTypography {
+  font-weight: bold !important;
+}
+.typeFreePaid {
+  font-weight: bold !important;
+}
+.statusBold {
+  font-weight: bold !important;
+}
+
+.quillShortDescription > div > div {
+  height: 80px !important;
+  margin-bottom: 80px !important;
+}
+
+.quillDescription > div > div {
+  height: 80px !important;
+  /* width: 633px !important */
+
+}
+.quillDescription1 > div > div {
+  height: 80px !important;
+  margin-bottom: 80px !important;
+}
+.wrapShortAndLongDescription {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+.SubmitButton {
+  float: right !important;
+}
+.stackStyle {
+  margin-bottom: 10px !important;
+  margin-top: 10px !important;
+}
+.editDeleteButton {
+  padding: 5px 9px !important;
+  min-width: 30px !important;
+  margin: 3px !important;
+}
+.cancelButton {
+  margin: 10px !important;
+  background-color: #1976d2 !important;
+  color: white;
+}
+
+/* .MuiPaper-root  .MuiPaper-elevation .MuiPaper-rounded .MuiPaper-elevation8 .MuiPopover-paper .css-3bmhjh-MuiPaper-root-MuiPopover-paper{
+width: 70% !important hai;
+} */
+.courseInFilter {
+  font-weight: bold !important;
+}
+.moduleInFilter {
+  font-weight: bold !important;
+}
+.statusInFilter {
+  font-weight: bold !important;
+}
+.boxInFilter {
+  float: right !important;
+}
+.applyButtonInFiltter {
+  margin-left: 10px !important;
+}
+.papperForTable {
+  width: 100% !important;
+}
+.tableContainer {
+  margin-top: 24px !important;
+}
+.tableCellMargin {
+  margin: 5px !important;
+}
+.tableLastCell {
+  text-align: center !important;
+}
+.activeClassColor {
+  color: green !important;
+}
+.inactiveClassColor {
+  color: #d32f2f !important;
+}
+.draftClassColor {
+  color: orange !important;
+}
+.addNewCourseButton {
+  margin-top: 70px !important;
+  float: right;
+}
+/* ----------------- UPDATE COURSE CSS ----------------------- */
+.courseNameGride {
+  display: flex !important;
+  margin-bottom: 16px !important;
+}
+.updateLoadingButton {
+  width: 178px !important;
+}
+.divcss {
+  display: contents !important;
+}
+.widthCss {
+  width: 30% !important;
+}
+.typoTitle {
+  font-size: 18px !important;
+  letter-spacing: 1px !important;
+  font-family: "Inter" !important;
+}
+.expanded {
+  background: #e8661b !important;
+}
+.typolist {
+  font-size: large !important;
+  font-family: serif !important;
+}
+.backgroundClick {
+  background: #e8661b !important;
+  color: #fff !important;
+  border-radius: 8px !important;
+}
+.backgroundClick:hover {
+  background: #e8661b !important;
+  color: rgb(250, 247, 247) !important;
+}
+
+.imgwidth {
+  width: 100% !important;
+}
+
+.imagecss{
+  width: 100%;
+  padding: 20px;
+  
+}
+
+.fontCS {
+  font-weight: 400 !important;
+  line-height: 1.6 !important;
+  color: #333 !important;
+  font-size: 15px !important;
+  text-align: justify !important;
+  font-family: Inter, sans-serif !important;
+}
+
+
+.fontCSS2 {
+  padding: 15px 25px;
+  font-weight: 400 !important;
+  color: #333 !important;
+  font-size: 15px !important;
+  text-align: justify !important;
+  font-family: Inter, sans-serif !important;
+}
+
+.filedownloadcss {
+  margin-top: 7px !important;
+  font-size: 30px !important;
+  color: #e8661b !important;
+}
+.backbtn {
+  position: absolute !important;
+  right: 25px;
+}
+.backbtncs {
+  height: 37px !important;
+}
+.backbtncs12 {
+  height: 37px !important;
+  text-align: end !important;
+  margin-right: 1px !important;
+  margin-top: 20px !important;
+}
+.backcss {
+  text-align: end !important;
+}
+.divcss {
+  display: contents !important;
+}
+.tableHeadingForId {
+  font-weight: bold !important;
+}
+
+#viewIcon {
+  border: 1px solid #e8661b !important;
+  color: #e8661b !important;
+}
+.popStateFilterButton1 {
+  /* display: inline-flex; */
+  color: #e8661b !important;
+}
+.hoverbtn:hover {
+  -webkit-text-decoration: none !important;
+  text-decoration: none !important;
+  background-color: rgba(255, 255, 255, 0.04) !important;
+}
+.backbtncscourse {
+  height: 37px !important;
+  font-size: 13px !important;
+}
+
+.InputLabelFont {
+  font-weight: 700 !important;
+}
+
+.courseAttachmentBox {
+  border: 1px solid rgb(192, 192, 192) !important;
+  /* text-align: -webkit-center !important; */
+  /* height: 200px; */
+}
+
+.subbox {
+  /* border: 1px solid rgb(192, 192, 192) !important; */
+  margin: 5px;
+}
+
+.courseAttachments {
+  padding: 10px 33px !important;
+  width: fit-content !important;
+  margin: 10px !important;
+  background: #f1f1f1 !important;
+  border-radius: 50px !important;
+}
+

@@ -1,0 +1,23 @@
+.mainBoxContainer{
+    padding: 5;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.errorCodeTypography{
+    margin-bottom: 20px;
+}
+
+.errorCodeTypographyMessage{
+    letter-spacing: 0em;
+    margin-bottom: 20px;
+    font-size: 1.5rem!important;
+}
+
+.errorCodeBackButton{
+    padding-left: 44px;
+    padding-right: 44px;
+    margin-bottom: 24px;
+}

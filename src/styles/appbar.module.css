@@ -1,0 +1,23 @@
+.createVrLine{
+    margin: 9px;
+    border-left: 1px solid #80808036;
+    height: 28px;
+}
+
+.windowFullWidthAvatar{
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+}
+
+.windowFullWidthNameAlign{
+    margin:12px 0px 12px 10px !important;
+}
+
+.appBarCss{
+    background:#fff !important;
+    color:#000 !important;
+    box-shadow:none !important;
+    border-bottom:1px solid #685f601f !important;
+
+}

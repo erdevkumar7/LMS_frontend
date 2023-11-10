@@ -1,0 +1,59 @@
+.profileImageBox {
+  float: left;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.profileCameraIcon {
+  right: 17px !important;
+  color: white !important;
+  position: relative !important;
+  background: #e8661b !important;
+  padding: 5px !important;
+  border-radius: 50% !important;
+}
+
+.imageComponent {
+  width: 120px;
+  height: 120px;
+  border-radius: 6px;
+}
+
+.userDetailGrid {
+  max-width: 50%;
+  width: 100%;
+  float: right;
+  margin-right: 100px;
+  margin-bottom: 32px;
+}
+
+.userDetailFront {
+  color: #7c7c7c;
+}
+
+.useNameFront {
+  color: #7c7c7c !important;
+  font-weight: bold !important;
+}
+
+.cameraAltIcon {
+  font-size: medium !important;
+}
+
+.updateLoadingButton {
+  width: 178px !important;
+}
+.userData {
+  margin-left: 15px !important;
+}
+.InputLabelFont {
+  font-weight: 700 !important;
+}
+.profilebtnbackground {
+  background-color: #e8661b !important;
+}
+.editiconbtnn {
+  color:  #e8661b !important;
+}

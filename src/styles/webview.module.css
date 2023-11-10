@@ -1,0 +1,710 @@
+/*landing page css*/
+.landingpagecarousel {
+  background-color: #e8eaed8a !important;
+  padding-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+.gridcols2 {
+  width: 100% !important;
+  height: 100% !important;
+  display: grid !important;
+  /* grid-template-columns: repeat(2, 1fr) !important; */
+  grid-template-columns: 400px 1fr !important;
+  gap: 4rem !important;
+  margin-bottom: 30px !important;
+}
+
+.griditem1 {
+  /* padding-top: 5rem !important;*/
+  padding-left: 1.6rem !important;
+  text-align: left !important;
+}
+
+.mainheading {
+  font-weight: 800 !important;
+  font-size: 40px !important;
+  line-height: 55px !important;
+}
+
+.mainheading span {
+  font-weight: 800 !important;
+  font-size: 40px !important;
+  line-height: 55px !important;
+  color: #e8661b !important;
+}
+.infotext {
+  margin-top: 1.5rem !important;
+  font-size: 15px !important;
+  line-height: 25px !important;
+  color: #454f5f !important;
+}
+
+.btnwrapper {
+  margin-top: 2rem !important;
+  width: 150px !important;
+  height: 40px !important;
+  background-color: #222121 !important;
+  font-size: 16px !important;
+  text-transform: capitalize !important;
+  border-radius: 5px !important;
+  letter-spacing: 1px !important;
+  transition: 0.4s !important;
+}
+
+.viewmorebtn {
+  font-weight: 700 !important;
+  align-items: center !important;
+  font-size: 16px !important;
+  color: #f3ecec !important;
+  font-weight: 500 !important;
+  padding-left: 25px !important;
+  margin-top: 1px !important;
+}
+
+.btnwrapper:hover {
+  transform: translateY(-3px) !important;
+}
+
+.viewmorebtn:hover {
+  transition: box-shadow 0.25s ease, transform 0.25s ease !important;
+}
+
+.griditem2 {
+  width: 100% !important;
+  height: 100% !important;
+  padding-right: 1.6rem !important;
+}
+
+.teamimgwrapper img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+  max-height: 70% !important;
+  margin-top: 20px !important;
+}
+
+/*how it works page*/
+.howitworks {
+  padding-top: 1px !important;
+  padding-bottom: 1px !important;
+}
+
+.howitworks .headerbox .divders {
+  background: #000 !important;
+  width: 70% !important;
+  margin: 0px 30px !important;
+}
+
+.howitworks .h6 {
+  text-align: center !important;
+  font-size: 30px !important;
+  font-weight: 900 !important;
+  color: #e8661b !important;
+}
+/* how it works page icons cards*/
+.iconarticles {
+  display: grid !important;
+  max-width: 1200px !important;
+  margin-inline: auto !important;
+  padding-inline: 24px !important;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)) !important;
+  gap: 24px !important;
+  flex-wrap: wrap !important;
+  display: flex !important;
+  justify-content: space-around !important;
+  margin-top: 2.5em !important;
+}
+
+.iconarticles .h2 {
+  margin-top: 20px !important;
+  font-weight: bold !important;
+  text-align: center !important;
+}
+
+.iconarticle1 {
+  position: relative !important;
+  border-radius: 150px !important;
+  background: #e8eaed !important;
+  transform-origin: center !important;
+  transition: all 0.4s ease-in-out !important;
+  width: 150px !important;
+  height: 150px !important;
+  justify-content: space-evenly !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.iconarticle2 {
+  position: relative !important;
+  border-radius: 50px !important;
+  background: #000 !important;
+  transform-origin: center !important;
+  transition: all 0.4s ease-in-out !important;
+  width: 100px !important;
+  height: 100px !important;
+  justify-content: space-evenly !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.iconarticlewrapper {
+  position: relative !important;
+  border-radius: 50px !important;
+  background: #fff !important;
+  transform-origin: center !important;
+  transition: all 0.4s ease-in-out !important;
+  width: 50px !important;
+  height: 50px !important;
+  justify-content: space-evenly !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.iconfigure {
+  position: relative !important;
+  align-items: center !important;
+}
+
+.headerbox {
+  width: 100% !important;
+  justify-content: center !important;
+  display: grid !important;
+}
+
+.divder {
+  background: #000 !important;
+  width: 70% !important;
+  margin: 0px 45px !important;
+}
+
+/*enrolled free courses*/
+.enrolled {
+  padding-top: 5rem !important;
+  margin-bottom: 5rem !important;
+}
+
+.freecourses {
+  margin-bottom: 5rem !important;
+}
+
+.freecourses .h6 {
+  text-align: center !important;
+  font-size: 30px !important;
+  font-weight: 900 !important;
+  color: #e8661b !important;
+}
+
+.enrolled .h6 {
+  text-align: center !important;
+  font-size: 30px !important;
+  font-weight: 900 !important;
+  color: #e8661b !important;
+}
+
+.articles {
+  padding-top: 2rem !important;
+  margin-bottom: 2rem !important;
+  display: grid !important;
+  max-width: 1200px !important;
+  margin-inline: auto !important;
+  padding-inline: 24px !important;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) !important;
+  gap: 30px !important;
+  flex-wrap: wrap !important;
+}
+
+.subscription {
+  padding-top: 4rem !important;
+  display: grid !important;
+  max-width: 1200px !important;
+  margin-inline: auto !important;
+  padding-inline: 24px !important;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) !important;
+  gap: 30px !important;
+  flex-wrap: wrap !important;
+}
+
+.article {
+  --img-scale: 1.001 !important;
+  --title-color: black !important;
+  --link-icon-translate: -20px !important;
+  --link-icon-opacity: 0 !important;
+  position: relative !important;
+  border-radius: 15px !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 36px 0px,
+    rgba(0, 0, 0, 0.01) 0px 0px 0px 1px !important;
+  background: #fff !important;
+  transform-origin: center !important;
+  transition: all 0.4s ease-in-out !important;
+  overflow: hidden !important;
+  cursor: pointer !important;
+}
+
+.subcarticle {
+  --img-scale: 1.001 !important;
+  --title-color: black !important;
+  --link-icon-translate: -20px !important;
+  --link-icon-opacity: 0 !important;
+  position: relative !important;
+  border-radius: 15px !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 36px 0px,
+    rgba(0, 0, 0, 0.01) 0px 0px 0px 1px !important;
+  background: #fff !important;
+  transform-origin: center !important;
+  transition: all 0.4s ease-in-out !important;
+  overflow: hidden !important;
+  margin-top: 2em !important;
+}
+
+.listviewarticles {
+  margin-bottom: 2rem !important;
+}
+
+.article a::after {
+  position: absolute !important;
+  inset-block: 0 !important;
+  inset-inline: 0 !important;
+  cursor: pointer !important;
+  content: "" !important;
+}
+
+/* basic article elements styling */
+.article .h2 {
+  /* margin: 0 0 10px 0 !important; */
+  font-size: 1.5rem !important;
+  color: "black" !important;
+  text-align: center !important;
+  font-weight: 600 !important;
+}
+
+.article .h5 {
+  /* margin: 0 0 10px 0 !important; */
+  font-size: 1rem !important;
+  color: "black" !important;
+  text-align: center !important;
+}
+
+.figure {
+  margin: 0 !important;
+  padding: 0 !important;
+  aspect-ratio: 16 / 9 !important;
+  overflow: hidden !important;
+}
+
+.article img {
+  max-width: 100% !important;
+  transform-origin: center !important;
+  transform: scale(var(--img-scale)) !important;
+  transition: transform 0.4s ease-in-out !important;
+}
+
+.articlebody {
+  padding: 15px !important;
+}
+
+.article a {
+  display: inline-flex !important;
+  align-items: center !important;
+  text-decoration: none !important;
+  color: #28666e !important;
+}
+
+.article a:focus {
+  outline: 1px dotted #28666e !important;
+}
+
+.article a .icon {
+  min-width: 24px !important;
+  width: 24px !important;
+  height: 24px !important;
+  margin-left: 5px !important;
+  transform: translateX(var(--link-icon-translate)) !important;
+  opacity: var(--link-icon-opacity) !important;
+  transition: all 0.3s !important;
+}
+
+.article:has(:hover, :focus) {
+  --img-scale: 1.1 !important;
+  --title-color: #28666e !important;
+  --link-icon-translate: 0 !important;
+  --link-icon-opacity: 1 !important;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px !important;
+}
+
+/*courses page design*/
+.coursebanner {
+  height: 250px !important;
+}
+
+.courses {
+  padding-top: 30px !important;
+}
+
+.coursesdetails {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+  background-color: #f3f3f3ad !important;
+}
+
+.coursesdetails .crsgrid {
+  padding-left: 1.7rem !important;
+  padding-right: 1.7rem !important;
+}
+
+.filtersection {
+  padding-left: 1.7rem !important;
+  padding-right: 1.7rem !important;
+}
+
+.filterinput {
+  width: 300px !important;
+  height: 45px !important;
+}
+
+.filtercontainer {
+  display: flex !important;
+  justify-content: space-between !important;
+  flex-wrap: wrap !important;
+}
+
+.coursesheaderbox {
+  width: 100% !important;
+  justify-content: left !important;
+  display: grid !important;
+  padding-left: 1.7rem !important;
+  padding-top: 30px !important;
+}
+
+.coursesheaderbox .divder {
+  background: #000 !important;
+  width: 70% !important;
+  margin: 0px 5px !important;
+}
+
+.coursesheaderbox .h6 {
+  text-align: center !important;
+  font-size: 25px !important;
+  font-weight: 600 !important;
+  color: #e8661b !important;
+}
+
+.gridicon {
+  display: inline !important;
+}
+
+.actionview {
+  background-color: #e76012d9 !important;
+  border-radius: inherit !important;
+  margin-right: 20px !important;
+  border: 1px solid rgb(204, 204, 204) !important;
+  margin-top: 0px !important;
+  border-radius: 5px !important;
+  color: white !important;
+}
+
+.actionview:hover {
+  background-color: #e8661b !important ;
+}
+
+.paignation {
+  width: 60px !important;
+  height: 36px !important;
+  margin-right: 15px !important;
+  margin-top: -5px !important;
+  background-color: rgb(255, 255, 255) !important;
+  padding-right: 50px !important;
+}
+.listitem {
+  font-family: sans-serif !important;
+}
+
+.listitems {
+  font-family: sans-serif !important;
+  color: rgb(45, 104, 143) !important;
+  font-size: 17px !important;
+}
+
+.err_str {
+  color: red !important;
+}
+
+#muibuttonBackgroundColor {
+  background-color: #e8661b !important;
+}
+
+@media screen and (max-width: 460px) {
+  .mainheading {
+    font-weight: 800 !important;
+    font-size: 30px !important;
+    line-height: 55px !important;
+  }
+
+  .infotext {
+    margin-top: 1.5rem !important;
+    font-size: 14px !important;
+    line-height: 25px !important;
+    color: #454f5f !important;
+    padding: 20px !important;
+  }
+
+  .gridbtn {
+    margin-top: 20px !important;
+  }
+
+  .filterinput {
+    background-color: aliceblue !important;
+    width: 275px !important;
+    height: 40px !important;
+  }
+  .perpagedt {
+    padding-top: "20px" !important;
+  }
+}
+.displayBox {
+  display: flex !important;
+}
+
+.actionview1 {
+  border-radius: inherit !important;
+  margin-right: 10px !important;
+  margin-top: 0px !important;
+  border-radius: 5px !important;
+  width: 20px !important;
+  height: 20px !important;
+  padding: 15px !important;
+}
+
+.actionview2 {
+  border-radius: inherit !important;
+  margin-right: 20px !important;
+  margin-top: 0px !important;
+  border-radius: 5px !important;
+  width: 20px !important;
+  height: 20px !important;
+  padding: 15px !important;
+}
+.iconColor {
+  color: rgb(0, 0, 0) !important;
+  width: 22px !important;
+}
+
+.iconColor:hover {
+  color: rgb(0, 0, 0) !important;
+  width: 24px !important;
+}
+.headingcss {
+  font-weight: bold !important;
+  color: #e8661b !important;
+}
+.headingcssError {
+  margin-left: 20px !important;
+  text-align: center !important;
+  margin-top: 15px !important;
+  font-size: 17px !important;
+  font-weight: bold !important;
+}
+.courses1 {
+  padding-top: 3px !important;
+}
+.alignendcss {
+  position: absolute !important;
+  right: 15px !important;
+}
+.articles1 {
+  padding-top: 2rem !important;
+  margin-bottom: 2rem !important;
+  display: grid !important;
+  /* max-width: 1200px !important; */
+  margin-inline: auto !important;
+  padding-inline: 24px !important;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) !important;
+  gap: 30px !important;
+  flex-wrap: wrap !important;
+}
+
+.imgcss {
+  border-radius: 30px !important;
+  margin-top: 5px !important;
+  margin-left: 10px !important;
+}
+.useNameFront {
+  color: #4e4a4a !important;
+  font-weight: bold !important;
+  margin-left: 20px !important;
+  margin-top: 3px !important;
+  /* color: #362f2f !important; */
+  font-size: 17px !important;
+}
+.useNameFront1 {
+  font-weight: bold !important;
+  margin-left: 24px !important;
+  margin-top: 3px !important;
+  color: #4e4a4a !important;
+  font-size: 17px !important;
+}
+.fontCSS {
+  padding: 2px !important;
+  color: #1426a9 !important;
+  margin-right: 54px !important;
+  font-weight: 600 !important;
+}
+.fontCSS1 {
+  padding: 2px !important;
+  color: #e57502 !important;
+  margin-right: 58px !important;
+  font-weight: 600 !important;
+}
+.fontCSS2 {
+  padding: 2px !important;
+  color: #e30000 !important;
+  margin-left: 20px !important;
+  font-weight: 600 !important;
+}
+.textHeadingCenter {
+  justify-content: center !important;
+}
+.gridColor {
+  color: #e8661b !important;
+  background: #e9e9e9 !important;
+  padding: 1px !important;
+  border-radius: 3px !important;
+  width: 23px !important;
+}
+
+.gridColor:hover {
+  color: #e8661b !important;
+  width: 25px !important;
+}
+
+@media (min-width: 900) and (max-width: 1024px) {
+  .imgcss {
+    border-radius: 30px !important;
+    margin-top: 5px !important;
+    width: 46px !important;
+    height: 55px !important;
+  }
+  .useNameFront {
+    color: #4e4a4a !important;
+    font-weight: bold !important;
+    margin-left: 10px !important;
+    margin-top: 3px !important;
+    font-size: 16px !important;
+  }
+  .fontCSS {
+    padding: 2px !important;
+    color: #1426a9 !important;
+    font-weight: 600 !important;
+  }
+  .fontCSS1 {
+    padding: 2px !important;
+    color: #1426a9 !important;
+    font-weight: 600 !important;
+  }
+}
+.gridlistview {
+  display: table-row-group !important;
+}
+
+.listunderline {
+  border: 2px solid #e8661b !important;
+  margin-top: 3px !important;
+  width: 30px !important;
+}
+.listunderline2 {
+  display: none !important;
+}
+
+.gridicondisplay {
+  display: contents !important;
+}
+.titleCoursecs {
+  font-weight: 600 !important;
+}
+.continueRead {
+  color: #e8661b !important;
+}
+.plancss {
+  color: #e8661b !important;
+  text-decoration: underline !important;
+}
+.imagecssbanner {
+  width: 100% !important;
+}
+.imgwidthcss {
+  width: 100%;
+  margin-left: auto;
+  box-sizing: border-box;
+  margin-right: auto;
+  display: block;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.cardheadingg {
+  margin-left: 30% !important;
+  margin-right: 30% !important;
+  height: 52px !important;
+  margin-top: 25px !important;
+  border-bottom: 3px solid #e8661b !important;
+  width: max-content !important;
+}
+.supcss {
+  vertical-align: super !important;
+  font-size: 18px !important;
+  color: #505050 !important;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+}
+.subcss {
+  vertical-align: baseline !important;
+  font-size: 18px !important;
+  color: #505050 !important;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+}
+
+#muibuttonBackgroundColor1 {
+  background-color: #e8661b !important;
+  width: 50% !important;
+  height: 45px !important;
+  border-radius: 32px !important;
+  margin-top: 10px !important;
+}
+.righticoncss {
+  position: relative !important;
+  top: 1px !important;
+  width: 21px !important;
+  color: #e8661b !important;
+  margin-right: 4px !important;
+}
+.divfont {
+  font-size: 16px !important;
+}
+
+.enrolledplan {
+  padding-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+.enrolledplan .h6 {
+  text-align: center !important;
+  font-size: 30px !important;
+  font-weight: 900 !important;
+  color: #e8661b !important;
+}
+
+.aboutHeading {
+  padding-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+.aboutHeading .h6 {
+  text-align: center !important;
+  font-size: 30px !important;
+  font-weight: 900 !important;
+  margin-bottom: 1px !important;
+  color: #e8661b !important;
+}
+
+.divderabout {
+  background: #000 !important;
+}
+.aboutsiteBodyContainer {
+  padding: 10px !important;
+}

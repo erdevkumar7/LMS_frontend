@@ -1,0 +1,97 @@
+.loginSideLogo {
+  position: relative;
+  top: 17px;
+  left: 120px;
+}
+
+.loginSideImage {
+  padding: 16px;
+  width: 100%;
+}
+
+.signInUpColor {
+  color: #e8661b !important;
+}
+
+.registerPage {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+}
+
+.mainBoxContentForm {
+  margin-top: 8px;
+}
+
+.mainBoxContent {
+  display: flex !important;
+  flex-direction: column !important;
+  margin: 20px 80px !important;
+  justify-content: center !important;
+  /* height: 100vh !important; */
+}
+
+.loginmainBoxContent {
+  display: flex !important;
+  flex-direction: column !important;
+  margin: 0px 80px !important;
+  justify-content: center !important;
+  height: 100vh !important;
+}
+
+.mainBoxLabel {
+  font-weight: bold !important;
+}
+
+.mainBoxButton {
+  margin-top: 24px !important;
+  margin-bottom: 16px !important;
+}
+
+.mainBoxDividerBox {
+  margin-left: 90px !important;
+}
+
+.mainBoxDivider {
+  width: 80% !important;
+  font-weight: bold !important;
+}
+
+.googleButtonStyle {
+  margin-top: 24px !important;
+  color: #000 !important;
+  border-color: #e8661b !important;
+}
+
+/* Breadcrumbs */
+
+.breadcrumbsTextFirstandSecond {
+  color: #7d86a5 !important;
+  text-decoration: none !important;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+}
+
+.breadcrumbsTextLast {
+  color: #e8661b !important;
+  text-decoration: none !important;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+}
+.breadcrumbsMainBoldText {
+  font-weight: bold;
+  color: #333333;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+}
+
+/* Breadcrumbs */
+
+@media (max-width: 899px) {
+  .loginSideImage {
+    display: none !important;
+  }
+
+  .mainBoxContent {
+    display: flex !important;
+    flex-direction: column !important;
+    margin: 0px 50px !important;
+    justify-content: center !important;
+    height: 80vh !important;
+  }
+}

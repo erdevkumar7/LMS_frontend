@@ -1,0 +1,5 @@
+.searchAndChat{
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+}
